@@ -52,7 +52,13 @@ the trigger cadence is external. It does not claim autonomy.
 
 ## Notes
 
-Confirm `prompt_non_comparative` and `web.render` against
-https://sdk.genlayer.com/main/api/genlayer.html and deploy to Studio before
-submitting. The hysteresis counter is deterministic; only the per-run judgment
-is non-deterministic. State what was and was not simulated.
+The contract deployed in hosted Studio with the expected method schema. The
+hysteresis counter is deterministic and covered by offline simulation; live
+repeated checks with an external keeper have not been exercised.
+
+## Deployment
+
+- GitHub: https://github.com/Zhekinmaksim/genlayer-hysteresis-condition-watcher
+- Studio contract: https://explorer-studio.genlayer.com/address/0xb3f72989B8D674f6465B35b83673Aa73F65e74b9
+- Deploy transaction: https://explorer-studio.genlayer.com/tx/0xa53cdf8f43c4d01090fbe26b22e1c0c02cbaad48ff6deed01f15567bc4877c26
+- Deployed source commit: `a4c003db46f6ae5860887097eddae6f4502910c3`

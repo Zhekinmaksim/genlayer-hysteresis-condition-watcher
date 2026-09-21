@@ -19,8 +19,9 @@ explicitly an external keeper responsibility rather than a claimed capability.
 ## Evidence checklist
 
 - GitHub: https://github.com/Zhekinmaksim/genlayer-hysteresis-condition-watcher
-- Commit: pending
-- Explorer contract: pending
-- Deploy transaction: pending
-- Offline verification: `python3 sim/check.py`, 5/5 pass on 2026-09-12
-- Hosted Studio checks: pending
+- Deployed source commit: `a4c003db46f6ae5860887097eddae6f4502910c3`
+- Explorer contract: https://explorer-studio.genlayer.com/address/0xb3f72989B8D674f6465B35b83673Aa73F65e74b9
+- Deploy transaction: https://explorer-studio.genlayer.com/tx/0xa53cdf8f43c4d01090fbe26b22e1c0c02cbaad48ff6deed01f15567bc4877c26
+- Offline verification: `python3 sim/check.py`, 5/5 pass on 2026-09-21
+- Hosted Studio checks: deployment accepted in Normal (Full Consensus) mode;
+  schema verified. Live repeated-check/keeper flow not run.
